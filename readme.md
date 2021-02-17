@@ -91,3 +91,13 @@ nginx
 set network proxy as automatic and the configureUrl as `http://127.0.0.1:10809/v2ray/pac.txt`
 
 now enjoy freedom😉
+
+## Use docker-compose to start service
+
+first you need install docker-compose
+
+then in project root floder run
+
+```shell
+docker-compose up -d
+```
