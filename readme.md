@@ -16,11 +16,11 @@ set `"vnext"` as you v2ray server
       "settings": {
         "vnext": [
           {
-            "address": "www.example.com",  // server address
-            "port": 46587,  // server port
+            "address": "www.example.com",
+            "port": 46587,
             "users": [
               {
-                "id": "ac82e9ba-f610-4ec9-a990-c990cc2ffc69", // uuid
+                "id": "ac82e9ba-f610-4ec9-a990-c990cc2ffc69",
                 "alterId": 1,
                 "email": "t@t.tt",
                 "security": "auto"
