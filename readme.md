@@ -2,7 +2,9 @@
 
 ## install docker
 
-first you need install docker [official handbook](https://docs.docker.com/engine/install/ubuntu/)
+first you need install docker.
+
+[official handbook](https://docs.docker.com/engine/install/ubuntu/)
 
 ## modify config file
 
@@ -92,7 +94,7 @@ set network proxy as automatic and the configureUrl as `http://127.0.0.1:10809/v
 
 now enjoy freedom😉
 
-## Use docker-compose to start service
+## Option: Use docker-compose to start service
 
 first you need install docker-compose
 
@@ -100,4 +102,12 @@ then in project root floder run
 
 ```shell
 docker-compose up -d
+```
+
+> Important! you should restart you v2ray service once change your `config.json` file.
+
+run command:
+
+```shell
+docker-compose restart v2ray
 ```
