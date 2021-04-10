@@ -127,6 +127,8 @@
         "outboundTag": "direct",
         "domain": [
           "domain:baidu.com",
+          "domain:iqiyi.com",
+          "domain:163.com",
           "domain:cowtransfer.com",
           "domain:bilibili.com",
           "domain:zhihu.com",
